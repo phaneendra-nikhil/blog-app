@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Caveat:wght@400;700&family=Dancing+Script:wght@400;500;600&family=Dela+Gothic+One&family=Lilita+One&family=Paytone+One&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+:root{
+    --nav-1-bg: #08143b;
+    --logo-font: 'Dancing Script', cursive;
+    --content-bg: rgb(226, 224, 224) ;
+}
+::-webkit-scrollbar{
+    width: 0%;
+}
+nav{
+    width: 100%;
+    height: fit-content;
+}
+.nav-container-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 7% 0px;
+    align-items: center;
+    background-color: var(--nav-1-bg);
+}
+.nav-container-1 .social button {
+    margin-right: .3rem;
+    padding: .5rem .7rem;
+    background: transparent;
+    border: none;
+}
+.nav-container-1 button a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffff;
+}
+.nav-container-1 .info small{
+    margin-left: .6rem;
+    color: #ffff;
+    font-weight: 700;
+}
+.nav-container-1 .info i{
+    display: none;
+}
+.nav-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10% 20px;
+}
+.nav-container-2 .ad-1{
+    width: 720px;
+    height: 90px; 
+    background-color: var(--content-bg);
+}
+.nav-container-2 .ad-1 p{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: gray;
+}
+.nav-container-2 .logo h1{
+    font-family: var(--logo-font);
+    font-size: 3rem;
+    font-weight: 700;
+}
+/******************************************************************************************************************************************/
+
+header{
+    width: 100%;
+    height: fit-content;
+    padding: 10px 10.5% 10px;
+    background-color: var(--content-bg);
+}
+.nav-container-3{
+    padding: 20px 20px;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+     */
+}
+.nav-container-3 {
+    background-color: var(--nav-1-bg);
+}
+.nav-container-3 ul{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.nav-container-3 ul li a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    transition: all .30s ease;
+}
+.nav-container-3 li a:hover{
+    color: #061553;
+}
+
+.header-content{
+    width: 100%;
+    margin-top: .4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .4rem;
+}
+ .image-container-1 h2{
+    position: absolute;
+    top: 90%;
+    left: 12%;
+    color: #fff;
+}
+.image-container-1 .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    position: absolute;
+    top: 85%;
+    left: 12%;
+    color: #fff;
+}
+
+.image-container-2 .info{
+    position: absolute;
+    top: 60%;
+    left: 64%;
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+.image-container-2 h2{
+    position: absolute;
+    top: 63%;
+    left: 64%;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.image-container-3 h2{
+    position: absolute;
+    top: 96%;
+    left: 64%;
+    font-size: 1rem;
+    color: #fff;
+}
+.image-container-3 .info{
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 92%;
+    display: flex;
+    gap: 1rem;
+    left: 64%;
+    
+}
+.header-content img{
+    transition: all .50s ease;
+    cursor: pointer;
+}
+
+.image-container-1 img{
+    width: 802px;
+}
+.image-container-2{
+    display: flex;
+    flex-direction: column;
+}
+.image-container-2 .image-2 img{
+    width: 400px;
+}
+.image-container-2 .image-container-3 img{
+    width: 400px;  
+}
+header marquee{
+    margin-top: 1rem;
+    color: #000;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 7px;
+}
+/******************************************************************************************************************************************************************/
+.content-container{
+    width: 100%;
+    height: max-content;
+    padding: 10px 10.5% 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: var(--content-bg);
+}
+.container-1{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.sub-container-1{
+
+    background-color: #fff;
+    padding: 15px;
+}
+.sub-container-2 .ad-2{
+    width: 870px;
+    height: 200px;
+    background-color: #fff;
+}
+ .ad-2 p{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: gray;
+}
+
+.text-1{
+    display: flex;
+    gap: 1.2rem; 
+    align-items: center;   
+}
+.content-text h2{
+    cursor: pointer;
+}
+.content-text h2:hover{
+    color: #087be6;
+}
+.text-1 .content-image img{
+    width: 270px;
+    border-radius: 10px;
+    margin-bottom: .4rem;
+    cursor: pointer;
+}
+.container-1 h3, .container-2 h3{
+    background-color: var(--nav-1-bg);
+    margin-bottom: 1rem;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 12px;
+}
+.container-2 .container-2-image img{
+    width: 300px;
+    margin-bottom: .4rem;
+    border-radius: 10px;
+}
+.container-2 .follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container-2 .hero-image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.container-2 .ad-3{
+    width: 300px;
+    margin-top: 1rem;
+    height: 200px;
+    background-color: var(--content-bg);
+    margin-bottom: 1rem;
+}
+.content-text .info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+    color: #454444;
+    margin-bottom: .4rem;
+}
+.container-2 .ad-3 p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    color: gray;
+    font-size: 2rem;
+}
+.message{
+    color: gray;
+}
+.content-text h2{
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+}
+
+.container-2 .subscribe form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+}
+.container-2 .subscribe input{
+    width: 300px;
+    border: none;
+    border-radius: 40px;
+    background-color: var(--content-bg);
+    padding: .6rem 1rem;
+}
+.container-2 .subscribe button{
+    padding: .5rem 2rem;
+    border: none;
+    background-color: #061553;
+    border-radius: 20px;
+}
+.container-2 .subscribe button a{
+    color: #ffff;
+    font-weight: 600;
+}
+.container-2 .subscribe input::placeholder{
+    color: #000;
+    font-weight: 600;
+}
+.network h3{
+    margin-top: 2rem;
+}
+.container-2 .network{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .2rem;
+}
+.container-2 .network .github{
+    width: 100%;
+    background: #262627;
+    color: #fff;
+    font-weight: 500;
+    padding: .6rem ;
+}
+.container-2 .network .github i{
+    font-size: 1.2rem;
+    padding: .2rem .3rem;
+    background-color: #5c5c5d;
+}
+
+
+.container-2 .network .instagram{
+    width: 100%;
+    background: #e71919;
+    color: #fff;
+    font-weight: 500;
+    padding: .6rem ;
+}
+.container-2 .network .instagram i{
+    font-size: 1.2rem;
+    padding: .2rem .3rem;
+    background-color: #ee3030;
+}
+
+
+.container-2 .network .facebook{
+    width: 100%;
+    background: #061553;
+    color: #fff;
+    font-weight: 500;
+    padding: .6rem ;
+}
+.container-2 .network .facebook i{
+    font-size: 1.2rem;
+    padding: .2rem .3rem;
+    background-color: #0b2489;
+}
+
+.container-2 .network .bing{
+    width: 100%;
+    background: #087be6;
+    color: #fff;
+    font-weight: 500;
+    padding: .6rem ;
+}
+.container-2 .network .bing i{
+    font-size: 1.2rem;
+    padding: .2rem .3rem;
+    background-color: #5bacee;
+}
+/*********************************************************************************************************************************************************************************/
+.article-container{
+    width: 100%;
+    height: max-content;
+    padding: 20px 10.5% 20px;
+    background-color: #ffff;
+}
+.article-container .article-image img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-direction: row;
+}
+.article-1{
+    width: 70%;
+}
+.article-1 .text{
+    color: #4b4b4c;
+}
+.article-1 .title{
+    text-align: center;
+    background-color: var(--content-bg);
+    padding: 16px;
+    border-left: 10px solid var(--nav-1-bg);
+}
+.title p{
+    font-size: 1.5rem;
+    color: #262627;
+}
+.article-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.article-profile img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.article-profile{
+    background: var(--content-bg);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.author h2{
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+.author button{
+    margin-top: .4rem;
+    padding: .4rem 1rem;
+    margin-right: .6rem;
+    border: none;
+    border-radius: 7px;
+}
+.insta-btn{
+    background-color: rgb(248, 31, 31);
+    color: #ffff;
+    font-weight: 600;
+}
+.facebook-btn{
+    background-color: #1d3699;
+    color: #fff;
+    font-weight: 600;
+}
+.LinkedIn-btn{
+    background-color: #087be6;
+    color: #fff;
+    font-weight: 600;
+}
+.article-2{
+    width: 45%;
+    height: 70vh;
+    background-color: var(--content-bg);
+    position: sticky;
+    top: 20px;
+    border-radius: 10px;
+}
+.article-2 h1{
+    text-align: center;
+    margin-right: 1rem;
+    margin-top: .5rem;
+}
+.back-btn button{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    padding: .6rem 1.2rem;
+    font-size: 1.1rem;
+    border: none;
+    background-color: var(--nav-1-bg);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .50s ease;
+}
+.back-btn button:hover{
+    background-color: #59607a;
+}
+/*******************************************************************************************************************************/
+.footer-container{
+    background-color: #030d37;
+    width: 100%;
+    height: 60vh;
+    color: #fff;
+}
+/****************************************************************************************************************************/
+@media(max-width: 1024px){
+
+    .nav-container-1 .info small{
+        display: none;
+    }
+    .nav-container-1 .info  i{
+        display: inline-block;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        color: #fff;
+
+    }
+    .nav-container-2{
+        flex-direction: column;
+    }
+    .nav-container-2 .ad-1{
+        margin-top: 1rem;
+        width: 100%; 
+    }
+    .nav-container-2 .ad-1 p{
+        font-size: 1rem;
+    }
+    .nav-container-3{
+        display: none;
+    }
+    .header-content{
+        flex-direction: column;
+        
+    }
+    .image-container-1 img,.image-container-2 .image-2 img, .header-content .image-container-3 img{
+        width: 100%;
+    }
+
+    .info p, .info i, .header-content h2{
+        display: none;
+    }
+    .content-container{
+        flex-direction: column;
+        
+    }
+    .sub-container-1 .text-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .sub-container-1 .text-1 img{
+        width: 100%;
+    }
+
+    .sub-container-2 .ad-2{
+        width: 100%;
+    }
+    .container-2 .container-2-image img{
+        width: 100%;
+    }
+    .container-2 .ad-3{
+        width: 100%;
+    }
+    .container-2 .ad-3 p{
+        font-size: 1rem;
+    }
+    .container-2 .subscribe input{
+        width: 100%;
+    }
+    .article{
+        flex-direction: column;
+    }
+}
